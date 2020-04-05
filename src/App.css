@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Mako|Ropa+Sans|Cookie&display=swap');
+
+.App {
+	text-align: center;
+	background-color: #f5f5f5;
+	font-family: Mako;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #242424;
+	height: 10vh;
+	color: #f5f5f5;
+	position: fixed; 
+	top: 0; 
+	width: 100%;
+}
+
+.menu {
+	display: flex;
+	justify-content: flex-end;
+	text-decoration: none;
+	width: 60%;
+	margin-right:3%;
+}
+
+li {
+	list-style-type: none;
+	padding: 20px;
+}
+
+.hero   {
+	background-color: #f5f5f5;
+	display:flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 50px;
+}
+
+.hero-title {
+	margin-top: 5vh;
+}
+
+h1 {
+	font-family: Ropa Sans;
+	font-size: 4em;
+	font-weight: lighter;
+	color: #242424;
+	margin:0;
+}
+
+h2 {
+	font-family: Mako;
+}
+
+#name{
+	margin-left:2%;
+}
+
+.bio {
+	width: 50%;
+	
+	border: 1px solid red;
+
+}
+
+.square{
+	border:2px solid #242424;
+	padding: 0 25px;
+	font-family: Cookie;
+	color: #242424;
+	font-size: 1.4em;
+	box-shadow: 8px 8px #242424;
+}
+
+.skills {
+	margin-top: 5vh;
+}
+
+.skills img {
+	margin: 0 5px;
+}
+
+.skills-icons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.resume {
+	font-size: 1.2em;
+	border: #242424 1px solid;
+	box-shadow: 2px 2px #242424;
+	padding: 5px 25px;
+	text-decoration: #242424;
+	color: #242424;
+}
+
+.projects{
+	border:2px solid red;
+	display:flex;
+	justify-content: center;
+	align-items: baseline;
+}
