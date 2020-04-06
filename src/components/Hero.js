@@ -12,11 +12,12 @@ export const Hero = () => {
 				<h2>Fullstack Web Developer</h2>
 			</div>
 			<p className='bio'>
-				Nice human with a passion for creating applications and fix problems
+				Nice human with a passion for creating applications and solving problems. <br />Take a look at my projects and feel free to contact me!
 			</p>
 			<div id='contact-icons'>
-				<img src={linkedin} className='linkedin' width='40' />
-				<img src={github} className='github' width='40' />
+				<a href="https://www.linkedin.com/in/anamonteiro430/" target="_blank"><img src={linkedin} className='linkedin' width='42' /></a>
+				<img src={github}
+					className='github' width='42' />
 			</div>
 
 			<a href='http://www.google.com' className='resume'>
