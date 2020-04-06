@@ -6,7 +6,7 @@ export const Contact = () => {
     return (
         <div id="contact">
             <h2>Contact me</h2>
-            <form action="POST" data-netlify="true" className="contact-form">
+            <form method="POST" data-netlify="true" className="contact-form">
                 <label class="message" htmlFor="message-input">Your Message</label>
                 <textarea name="message" class="message-input" type="text" placeholder="Please write your message here" />
 
