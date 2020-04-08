@@ -27,6 +27,7 @@ export const Projects = () => {
 				<div className="project-image"><img src={todo} className="image" alt="droom" width="150" /></div>
 				<div className="project-info">
 					<h3>Beautiful Todos</h3>
+					<p>Create a beautiful list of things to do.</p>
 					<p>Built with HTML, CSS and Javascript</p>
 					<div id='code-icons'>
 						<img src={code} className='code' width='40' />
@@ -40,6 +41,7 @@ export const Projects = () => {
 				<div className="project-image"><img src={backend} className="image" alt="droom" width="150" /></div>
 				<div className="project-info">
 					<h3>PinterEach</h3>
+					<p>Backend for "Pintereach", where you can save articles to read later</p>
 					<p>Built with NodeJS and Express</p>
 					<div id='code-icons'>
 						<img src={code} className='code' width='40' />

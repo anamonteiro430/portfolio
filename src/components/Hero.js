@@ -20,7 +20,7 @@ export const Hero = () => {
 					className='github' width='42' />
 			</div>
 
-			<a href='http://www.google.com' className='resume'>
+			<a href='https://drive.google.com/file/d/1D5FNufQjPEI87Qi3DzU5KDBIZD9yIU2_/view' className='resume' target="_blank">
 				View my Resumé
 			</a>
 		</div>
