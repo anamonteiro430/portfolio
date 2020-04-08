@@ -7,7 +7,7 @@ import website from './../images/website.svg';
 
 export const Projects = () => {
 	return (
-		<div className='projects'>
+		<div id='projects'>
 			<h2>My Projects</h2>
 			<div className='project'>
 				<div className="project-image"><img src={droom} alt="droom" width="200" height="350" className="image" /></div>
@@ -16,9 +16,10 @@ export const Projects = () => {
 					<p>A plataform that connects companies to people searching for jobs. With a swipe to the left or right the user can choose their perfect company.</p>
 					<p>Built with React</p>
 					<div id='code-icons'>
-						<img src={code} className='code' width='40' />
-						<img src={website}
-							className='website' width='50' />
+						<a href="https://github.com/build-droom/front-end" target="_blank"><img src={code} className='code' width='40' /></a>
+						<a href="https://front-end-cyan.now.sh/" target="_blank"><img src={website}
+							className='website' width='50' /></a>
+
 					</div>
 				</div>
 
@@ -30,9 +31,9 @@ export const Projects = () => {
 					<p>Create a beautiful list of things to do.</p>
 					<p>Built with HTML, CSS and Javascript</p>
 					<div id='code-icons'>
-						<img src={code} className='code' width='40' />
-						<img src={website}
-							className='website' width='50' />
+						<a href="https://github.com/anamonteiro430/React-Todo" target="_blank"><img src={code} className='code' width='40' /></a>
+						<a href="https://my-beautiful-todos.netlify.com/" target="_blank"><img src={website}
+							className='website' width='50' /></a>
 					</div>
 				</div>
 
@@ -44,9 +45,9 @@ export const Projects = () => {
 					<p>Backend for "Pintereach", where you can save articles to read later</p>
 					<p>Built with NodeJS and Express</p>
 					<div id='code-icons'>
-						<img src={code} className='code' width='40' />
-						<img src={website}
-							className='website' width='50' />
+						<a href="https://github.com/FT-BW-Pintereach/back-end" target="_blank"><img src={code} className='code' width='40' /></a>
+						<a href="https://pinter-each.herokuapp.com/docs/" target="_blank"><img src={website}
+							className='website' width='50' /></a>
 					</div>
 				</div>
 

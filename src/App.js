@@ -8,7 +8,7 @@ import { Contact } from './components/Contact'
 
 function App() {
 	return (
-		<div className='App'>
+		<div id='App'>
 			<Nav />
 			<Hero />
 			<Skills />

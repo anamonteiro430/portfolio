@@ -16,12 +16,13 @@ export const Hero = () => {
 			</p>
 			<div id='contact-icons'>
 				<a href="https://www.linkedin.com/in/anamonteiro430/" target="_blank"><img src={linkedin} className='linkedin' width='42' /></a>
-				<img src={github}
-					className='github' width='42' />
+				<a href="https://github.com/anamonteiro430" target="_blank"><img src={github}
+					className='github' width='42' /></a>
+
 			</div>
 
-			<a href='https://drive.google.com/file/d/1D5FNufQjPEI87Qi3DzU5KDBIZD9yIU2_/view' className='resume' target="_blank">
-				View my Resumé
+			<a href='https://drive.google.com/file/d/1Vda_OKV2mdiRX82hQbowGs5X8LtJmKIB/view' className='resume' target="_blank">
+				View my Resume
 			</a>
 		</div>
 	);
