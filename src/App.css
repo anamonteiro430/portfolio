@@ -71,7 +71,6 @@ a{
 #logo {
 	margin-left:2vw;
 	color: #f5f5f5;
-	border:1px solid white;
 	width:20vw;
 }
 
@@ -134,7 +133,6 @@ h3 {
 	align-items: center;
 	flex-wrap: wrap;
 	width:60vw;
-	border:2px solid green;
 	padding: 5px 40px;
 }
 
@@ -181,13 +179,11 @@ h3 {
 .project-image{
 	width: 40%;
 	padding:15px;
-	border:1px solid green;
 	top:0;
 }
 
 .project-info{
 	width: 60%;
-	border:1px solid brown;
 	padding:15px;
 	top:0;
 }
@@ -386,7 +382,6 @@ p{
 		display: flex;
 		align-self: center;		width: 200px;
 		font-size: 1.5em;
-		border:2px solid red;
 	  }
 	  .project-image {
 		width: 40vh;
@@ -404,7 +399,6 @@ p{
 
 	  .skills-icons{
 		padding: 5px 10px;
-		border:2px solid red;
 		width:80%;
 	}
 
@@ -425,7 +419,6 @@ p{
 		align-self: center;		width: 200px;
 		margin-left:15px;
 		font-size: 1.4em;
-		border:2px solid red;
 	  }
 
 	  .project-image img{
