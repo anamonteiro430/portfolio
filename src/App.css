@@ -27,7 +27,7 @@ nav {
 	color: #f5f5f5;
 	position: fixed; 
 	top: 0; 
-	width: 100%;
+	width: 100vw;
 }
 
 .menu {
@@ -35,6 +35,7 @@ nav {
 	justify-content: flex-end;
 	text-decoration: none;
 	width: 60%;
+	align-items: center;
 	margin-right:3%;
 }
 
@@ -70,6 +71,8 @@ a{
 #logo {
 	margin-left:2vw;
 	color: #f5f5f5;
+	border:1px solid white;
+	width:20vw;
 }
 
 h1 {
@@ -115,6 +118,10 @@ h3 {
 
 .skills {
 	margin-top: 10vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 }
 
 .skills img {
@@ -125,6 +132,10 @@ h3 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-wrap: wrap;
+	width:60vw;
+	border:2px solid green;
+	padding: 5px 40px;
 }
 
 .resume {
@@ -154,27 +165,31 @@ h3 {
 
 .project{
 	display: flex;
-	justify-content: center;
-	width: 100%;
+	justify-content: space-around;
 	margin-top: 2vh;
-}
-
-.project-image{
-	border: 3px solid  #3d3d3d;
-	margin-right:5px;
-	width: 20%;
-
-}
-
-.project-info{
 	border: 3px solid #3d3d3d;
 	margin-left:5px;
-	width: 40%;
+	width: 60%;
+	height: auto;
 	padding:15px;
 	top:0;
 	display: flex;
-	flex-direction: column;
 	background-color: #F0EDED;
+}
+
+
+.project-image{
+	width: 40%;
+	padding:15px;
+	border:1px solid green;
+	top:0;
+}
+
+.project-info{
+	width: 60%;
+	border:1px solid brown;
+	padding:15px;
+	top:0;
 }
 
 .project-info h3{
@@ -189,13 +204,22 @@ h3 {
 }
 
 .image {
-	width:100%;
+	width:200px;
+	background-size: cover;
 	object-fit: cover;
+	height: 40vh;
 
 }
 
 p{
 	font-size: 1.1em;
+}
+
+#projects a:nth-child(5) {
+	background-color: #242424;
+	font-size: 1.5em;
+	margin:5vh;
+	padding:10px
 }
 
 @media (max-width: 550px) {
@@ -242,7 +266,7 @@ p{
 
   #form {
 	position: relative;
-	width: 50%;
+	width: 70vw;
 	margin: 50px auto 100px auto;
 	height: 50vh;
   }
@@ -275,13 +299,12 @@ p{
   }
     
   #submit {
-	width: 10vw;
+	width: 100px;
 	line-height: 2px; 
-	padding: 20px;
+	padding: 20px 20px;
 	text-align: center;
 	font-family: 'Lato', sans-serif;
 	font-size: 1.1em;
-	height: 5vh;
 	margin-top:2vh;
 	outline:none;
 	cursor: pointer;
@@ -290,3 +313,152 @@ p{
 	border: none;
   }
   
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+	border:1px solid black;
+}
+
+.wrapper img{
+	width: 50px;
+	height: 50px;
+}
+
+.wrapper span {
+	font-weight: bold;
+	color: #242424;
+	font-size:0.7em;
+}
+
+@media only screen and (max-width: 1050px) {
+	.project {
+	  width: 70%;
+	}
+  } 
+
+  @media only screen and (max-width: 950px) {
+	.project {
+	  width: 70%;
+	}
+  } 
+
+  @media only screen and (max-width: 900px) {
+	.project {
+	  width: 80%;
+	}
+  } 
+
+  @media only screen and (max-width: 850px) {
+	  #logo a{
+		font-size: 0.8em;
+	  }
+	.project {
+	  height: 60vh;
+	}
+  } 
+  
+  @media only screen and (max-width: 650px) {
+	.project {
+	  height: 65vh;
+	}
+  } 
+
+  @media only screen and (max-width: 600px) {
+	.project {
+	  height: 70vh;
+	}
+  } 
+
+  @media only screen and (max-width: 550px) {
+	#logo a{
+		font-size: 0.7em;
+	  }
+	  .project {
+		height: 50vh;
+	  }
+  } 
+
+  @media only screen and (max-width: 500px) {
+	#logo {
+		display: flex;
+		align-self: center;		width: 200px;
+		font-size: 1.5em;
+		border:2px solid red;
+	  }
+	  .project-image {
+		width: 40vh;
+	  }
+
+	  .project-image img{
+		  width:150px;
+	  }
+	  .project {
+		height: 60vh;
+	  }
+	  .menu{
+		  padding:10px;
+	  }
+
+	  .skills-icons{
+		padding: 5px 10px;
+		border:2px solid red;
+		width:80%;
+	}
+
+  } 
+
+  @media only screen and (max-width: 430px) {
+	.menu {
+		font-size: 0.9em;
+	}
+  } 
+
+  @media only screen and (max-width: 400px) {
+	.menu {
+		font-size: 0.8em;
+	}
+	#logo {
+		display: flex;
+		align-self: center;		width: 200px;
+		margin-left:15px;
+		font-size: 1.4em;
+		border:2px solid red;
+	  }
+
+	  .project-image img{
+		width:120px;
+	}
+  } 
+
+  @media only screen and (max-width: 450px) {
+		.hero{
+			font-size: 0.9em;
+		}
+
+		.project-info {
+			height: 60vh;
+			width:120px;
+		  }
+		.project-image{
+			width:100px;
+		}
+
+		.project-image .image{
+			width:100px;
+		}
+  } 
+
+  
+  @media only screen and (max-width: 430px) {
+	#logo {
+		
+		font-size: 1.2em;
+	  }
+
+	  .project-info h3{
+		  font-size: 1.2em;
+	  }
+  } 

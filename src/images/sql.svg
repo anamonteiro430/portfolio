@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#303C42;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<title>SQL File</title>
+<g id="SQL_File">
+	<g id="_Group_">
+		<path id="_Path_" class="st0" d="M18.5,11.5v-6l-5-5H3C2.2,0.5,1.5,1.2,1.5,2v20c0,0.8,0.7,1.5,1.5,1.5h14c0.8,0,1.5-0.7,1.5-1.5    v-2.5" style="fill: none; stroke: #303C42; stroke-linecap: round; stroke-linejoin: round;"/>
+		<path id="_Path_2" class="st0" d="M13.5,0.5V4c0,0.8,0.7,1.5,1.5,1.5h3.5" style="fill: none; stroke: #303C42; stroke-linecap: round; stroke-linejoin: round;"/>
+	</g>
+	<rect id="_Rectangle_" x="6.5" y="11.5" class="st0" width="16" height="8" style="fill: none; stroke: #303C42; stroke-linecap: round; stroke-linejoin: round;"/>
+	<path id="_Path_3" class="st0" d="M11.5,13.5h-1c-0.6,0-1,0.4-1,1l0,0c0,0.6,0.4,1,1,1l0,0c0.6,0,1,0.4,1,1l0,0c0,0.6-0.4,1-1,1h-1   " style="fill: none; stroke: #303C42; stroke-linecap: round; stroke-linejoin: round;"/>
+	<path id="_Rectangle_2" class="st0" d="M14.5,13.5L14.5,13.5c0.6,0,1,0.4,1,1v2c0,0.6-0.4,1-1,1l0,0c-0.6,0-1-0.4-1-1v-2   C13.5,13.9,13.9,13.5,14.5,13.5z" style="fill: none; stroke: #303C42; stroke-linecap: round; stroke-linejoin: round;"/>
+	<line id="_Path_4" class="st0" x1="15" y1="17" x2="15.5" y2="17.5" style="fill: none; stroke: #303C42; stroke-linecap: round; stroke-linejoin: round;"/>
+	<polyline id="_Path_5" class="st0" points="17.5,13.5 17.5,17.5 19.5,17.5  " style="fill: none; stroke: #303C42; stroke-linecap: round; stroke-linejoin: round;"/>
+</g>
+
+	<metadata>
+		<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+			<rdf:Description about="https://iconscout.com/legal#licenses" dc:title="file; extension; development; programing; type; sql" dc:description="file; extension; development; programing; type; sql" dc:publisher="Iconscout" dc:date="2017-02-16" dc:format="image/svg+xml" dc:language="en">
+				<dc:creator>
+					<rdf:Bag>
+						<rdf:li>Alpár - Etele Méder</rdf:li>
+					</rdf:Bag>
+				</dc:creator>
+			</rdf:Description>
+		</rdf:RDF>
+    </metadata></svg>
