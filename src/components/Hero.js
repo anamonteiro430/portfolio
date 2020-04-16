@@ -21,7 +21,7 @@ export const Hero = () => {
 
 			</div>
 
-			<a href='https://drive.google.com/file/d/1mWZpKYZ_fLfIWquaGFBj1PwFTIfIqVk0/view' className='resume' target="_blank">
+			<a href='https://drive.google.com/file/d/1dJlgjcfyJGPwWKhNSpTY_-DVkESLqtrF/view' className='resume' target="_blank">
 				View my Resume
 			</a>
 		</div>

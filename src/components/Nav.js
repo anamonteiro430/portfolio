@@ -5,7 +5,7 @@ export const Nav = () => {
 		<nav>
 			<h3 id="logo" ><a href="#App">Ana Francisca Monteiro</a></h3>
 			<div className='menu'>
-				<a href="https://drive.google.com/file/d/1mWZpKYZ_fLfIWquaGFBj1PwFTIfIqVk0/view" target='_blank'>Resume</a>
+				<a href="https://drive.google.com/file/d/1dJlgjcfyJGPwWKhNSpTY_-DVkESLqtrF/view" target='_blank'>Resume</a>
 				<a href="#projects">Projects</a>
 				<a href="#contact">Contact</a>
 			</div>
