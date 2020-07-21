@@ -1,10 +1,12 @@
-import React from "react";
+import React from 'react';
 
 export const Nav = () => {
   return (
     <nav>
       <h3 id="logo">
-        <a href="#App">Ana Francisca Monteiro</a>
+        <a href="#" onClick={window.scrollTo(0, 0)}>
+          Ana Francisca Monteiro
+        </a>
       </h3>
       <div className="menu">
         <a
