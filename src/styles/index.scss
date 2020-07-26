@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Mako|Ropa+Sans|Cookie&display=swap');
+@import 'projects';
 
 html {
   scroll-behavior: smooth;
@@ -30,7 +31,6 @@ nav {
   #logo {
     margin-left: 2vw;
     color: #f5f5f5;
-    width: 20vw;
   }
 
   .menu {
@@ -98,7 +98,6 @@ nav {
   }
 
   .bio {
-    width: 50%;
     font-family: Mako;
     margin-top: 2vh;
     line-height: 30px;
@@ -158,11 +157,7 @@ h3 {
   }
 }
 
-#projects {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+#contact {
   margin-top: 10vh;
 
   h2 {
@@ -171,48 +166,12 @@ h3 {
     margin-top: 4vh;
     font-weight: 700;
   }
-
-  .project {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 2vh;
-    margin-left: 5px;
-    width: 60%;
-    height: auto;
-    padding: 15px;
-    top: 0;
-    display: flex;
-
-    .project-image {
-      width: 40%;
-      padding: 15px;
-      top: 0;
-    }
-
-    .project-info {
-      width: 60%;
-      padding: 15px;
-      top: 0;
-
-      h3 {
-        padding: 5px;
-        margin: 0;
-        width: 100%;
-        font-size: 1.8em;
-      }
-    }
-  }
-}
-
-#contact {
-  margin-top: 10vh;
 }
 
 .image {
-  width: 200px;
   background-size: cover;
   object-fit: cover;
-  height: 40vh;
+  margin-top: 5vh;
 }
 
 p {
@@ -259,8 +218,24 @@ p {
 #code-icons {
   margin: 10px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+
+  .code-wrapper {
+    p {
+      margin: 0;
+    }
+
+    a {
+      .website {
+        padding: 0;
+      }
+
+      .code {
+        height: 50px;
+      }
+    }
+  }
 }
 
 #code-icons img {
@@ -272,24 +247,31 @@ p {
   width: 70vw;
   margin: 50px auto 100px auto;
   height: 50vh;
-}
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-input {
-  font-size: 1em;
-  width: 95%;
-  height: 50px;
-  padding: 0px 15px 0px 15px;
-  margin-bottom: 1vh;
-  background: transparent;
-  outline: none;
-  font-family: Mako;
-  color: #242424;
-  border-bottom: none;
-  border: 3px solid #242424;
+  #message {
+    width: 70%;
+  }
+
+  input {
+    font-size: 1em;
+    width: 60%;
+    height: 50px;
+    padding: 0px 15px 0px 15px;
+    margin-bottom: 1vh;
+    background: transparent;
+    outline: none;
+    font-family: Mako;
+    color: #242424;
+    border: none;
+    border-bottom: 3px solid #242424;
+  }
 }
 
 textarea {
-  width: 95%;
+  width: 80%;
   height: 15vh;
   padding: 15px;
   font-family: Mako;
@@ -297,7 +279,9 @@ textarea {
   outline: none;
   color: #242424;
   font-size: 1em;
-  border: 3px solid #242424;
+  border: none;
+
+  border-bottom: 3px solid #242424;
 }
 
 #submit {
@@ -379,83 +363,5 @@ textarea {
   }
   .project {
     height: 50vh;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  #logo {
-    display: flex;
-    align-self: center;
-    width: 200px;
-    font-size: 1.5em;
-  }
-  .project-image {
-    width: 40vh;
-  }
-
-  .project-image img {
-    width: 150px;
-  }
-  .project {
-    height: 60vh;
-  }
-  .menu {
-    padding: 10px;
-  }
-
-  .skills-icons {
-    padding: 5px 10px;
-    width: 80%;
-  }
-}
-
-@media only screen and (max-width: 430px) {
-  .menu {
-    font-size: 0.9em;
-  }
-}
-
-@media only screen and (max-width: 400px) {
-  .menu {
-    font-size: 0.8em;
-  }
-  #logo {
-    display: flex;
-    align-self: center;
-    width: 200px;
-    margin-left: 15px;
-    font-size: 1.4em;
-  }
-
-  .project-image img {
-    width: 120px;
-  }
-}
-
-@media only screen and (max-width: 450px) {
-  .hero {
-    font-size: 0.9em;
-  }
-
-  .project-info {
-    height: 60vh;
-    width: 120px;
-  }
-  .project-image {
-    width: 100px;
-  }
-
-  .project-image .image {
-    width: 100px;
-  }
-}
-
-@media only screen and (max-width: 430px) {
-  #logo {
-    font-size: 1.2em;
-  }
-
-  .project-info h3 {
-    font-size: 1.2em;
   }
 }

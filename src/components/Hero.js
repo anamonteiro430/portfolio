@@ -16,7 +16,7 @@ export const Hero = () => {
       </p>
 
       <a
-        href="https://drive.google.com/file/d/1Y1EJdTjSHDp34MiKQcdr-JWgjB1gRE_E/view"
+        href="https://drive.google.com/file/d/1LnUoaqVlRtyuA6dhxNaRCqLXR7CHrEch/view"
         className="resume"
         target="_blank"
       >
