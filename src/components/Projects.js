@@ -114,7 +114,7 @@ export const Projects = () => {
                 <img src={code} className="code" width="40" alt="see github" />
               </a>
               <a
-                href="https://distracted-jepsen-c0d2c2.netlify.app/"
+                href="https://cool-game-of-life.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -157,7 +157,7 @@ export const Projects = () => {
             <div className="code-wrapper">
               <p>App</p>
               <a
-                href="https://github.com/build-droom/front-end"
+                href="https://github.com/anamonteiro430/Job-Funnel-fe"
                 target="_blank"
               >
                 <img src={code} className="code" width="40" />
