@@ -14,7 +14,13 @@ export const Contact = () => {
           <img src={github} className="github" width="42" />
         </a>
       </div>
-      <form method="post" id="form" class="topBefore">
+      <form
+        method="POST"
+        id="form"
+        class="topBefore"
+        name="contact"
+        data-netlify="true"
+      >
         <input type="hidden" name="form-name" value="contact" />
         <input id="name" name="name" type="text" placeholder="Your Name" />
         <input id="email" name="email" type="text" placeholder="Your E-mail" />
