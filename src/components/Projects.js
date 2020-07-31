@@ -15,8 +15,8 @@ export const Projects = () => {
         </div>
         <div className="project-info">
           <h3>Where in Porto</h3>
-          <p>Frontend apps built with ReactJS, React Router, SASS</p>
-          <p>Backend built with NodeJS, ExpressJS, Knex</p>
+          <p>Front End apps built with ReactJS, React Router, SASS</p>
+          <p>Back End built with NodeJS, ExpressJS, Knex</p>
           <li>
             Full Stack application with emphasis in web development using
             ReactJS and NodeJs.
@@ -89,7 +89,7 @@ export const Projects = () => {
         </div>
         <div className="project-info">
           <h3>Game of Life</h3>
-          <p>Frontend app built with ReactJS and CSS</p>
+          <p>Front End app built with ReactJS and CSS</p>
           <li>
             Front End application of the famous cellular automaton designed by
             the mathematician John Conway

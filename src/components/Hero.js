@@ -7,7 +7,7 @@ export const Hero = () => {
         <h1 id="title">
           Hello, I'm <span className="square">Ana</span>
         </h1>
-        <h2>Fullstack Web Developer</h2>
+        <h2>Full Stack Software Engineer</h2>
       </div>
       <p className="bio">
         Nice human with a passion for creating applications and solving
@@ -16,7 +16,7 @@ export const Hero = () => {
       </p>
 
       <a
-        href="https://drive.google.com/file/d/14xulCi922e3dwQayYCyUJdWZ9Tb7c8sW/view"
+        href="https://drive.google.com/file/d/1XkSeTOXWoATUFviBhmOFM8ObtM0Qyejg/view"
         className="resume"
         target="_blank"
       >

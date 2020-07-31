@@ -10,7 +10,7 @@ export const Nav = () => {
       </h3>
       <div className="menu">
         <a
-          href="https://drive.google.com/file/d/14xulCi922e3dwQayYCyUJdWZ9Tb7c8sW/view"
+          href="https://drive.google.com/file/d/1XkSeTOXWoATUFviBhmOFM8ObtM0Qyejg/view"
           target="_blank"
         >
           Resume
